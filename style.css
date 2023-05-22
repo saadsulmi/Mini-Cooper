@@ -1,0 +1,278 @@
+
+@import url(//db.onlinewebfonts.com/c/261e9c7d5def410ce91cfda68fa8cd9e?family=MINI+Sans+Medium);
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "MINI Sans Medium"; src: url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.eot"); src: url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.woff") format("woff"), url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/261e9c7d5def410ce91cfda68fa8cd9e.svg#MINI Sans Medium") format("svg");
+}
+
+.container{
+    width: 100%;
+   
+
+}
+
+header{
+    padding: 10px 30px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0)),url(assets/Mini\ ignores\ its\ compact\ roots\ with\ chunky\ new\ Countryman.jpeg);
+    background-size: cover;
+    background-position: center  -350px;
+    background-repeat: no-repeat;
+    
+}
+.nav{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
+.selector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    width: fit-content;
+    
+}
+.selectors{
+    margin-left: 10px;
+}
+.selectors1{
+    margin-left: 24px;
+    font-size: 0.7em;
+    color: white;
+    text-decoration: none;
+}
+.search{
+    fill: white;
+    margin-left: 370px;
+    margin-top: 5px;
+}
+h1{
+font-family: Cochin, Georgia, Times, 'Times New Roman';
+font-weight: 400;
+color: white;
+font-size: 4rem;
+}
+h2{
+    font-family: Cochin, Georgia, Times, 'Times New Roman';
+    font-weight: 400;
+    color: white;
+    font-size: 2rem;
+}
+.headline{
+    margin: 60px 130px;
+}
+.btn{
+    margin-left: 115px;
+    margin-top: -40px;
+}
+.btns{
+    width: 200px;
+    border: none;
+    height: 40px;
+    margin-left: 12px;
+    font-size: 0.9em;
+}
+.btns:hover{
+    background-color: black;
+    border: solid white;
+    color: white;
+}
+.cars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-inline: 310px;
+}
+.car1{
+    width: 370px;
+}
+
+h3{
+    font-weight: 300;
+    margin-left: 100px ;
+    margin-top: 10px;
+}
+.electric{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241,241,241);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.electric img{
+    margin-top: 35px;
+    width: 400px;
+    height: 150px;
+}
+.dealer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dealer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    width: 80%;
+    height: 115px;
+    background-color: rgb(241,241,241) ;
+}
+.dealer-btn{
+    width: 300px;
+    height: 50px;
+    font-size: 1.2em;
+    background-color: rgb(0,125,163);
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+}
+.dealer-btn:hover{
+    
+    font-size: 1.2em;
+    background-color: white;
+    border: solid rgb(0,125,163) 2px;
+    color: rgb(93, 93, 93);
+    transition: 0.1s;
+}
+.icon-svg{
+    margin-right: 10px; 
+    fill: rgb(255, 255, 255);
+    
+}
+.dealer-btn:hover .icon-svg{
+    fill: rgb(93, 93, 93) ;
+}
+
+
+.head-news{
+  
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    
+}
+h5 i{
+    font-family: Cochin, Georgia, Times, 'Times New Roman';
+}
+.news{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(241,241,241);
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    align-items: center;
+}
+.news-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    
+
+}
+.new1{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin-right: 20px;
+    overflow: hidden;
+    
+    cursor: pointer;
+    
+}
+h4{
+    font-family: Cochin, Georgia, Times, 'Times New Roman';
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+.news-more{
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+.news-more:hover{
+    color: black;
+    background: white;
+    border: solid black 1px;
+}
+.mini-foot{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+
+.mini-foot{
+    text-align: center;
+  
+}
+.foot1{
+    margin-top: 60px;
+}
+.foot-icon{
+    margin-left: 535px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.icons:hover{
+    background-color: black;
+}
+.icons:hover:hover .icon-styl{
+    fill: white;
+}
+.icon-styl{
+    width: 20px;
+}
+.foot3{
+    margin-top: 60px;
+}
+.foot3 a{
+    color: black;
+    margin-left: 40px;
+    font-size: 1.1em;
+}
+.logo-foot{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    
+}
